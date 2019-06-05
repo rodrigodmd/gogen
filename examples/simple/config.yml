@@ -1,0 +1,25 @@
+values:
+  basepath: this/is/my/basepath
+
+questions:
+  app:
+    label: What's the name of the app?
+    default: myapp
+    validate:
+      min: 3
+
+  templates:
+    label: Select the templates to include
+    default: 1,2
+    type: checkbox
+    options:
+      - 1
+      - 2
+      - 3
+
+  confirm:
+    label: Would you like to continue?
+    default: yes
+    options:
+      - yes
+      - no
